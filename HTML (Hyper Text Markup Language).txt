@@ -38,7 +38,7 @@ Note: Some HTML elements have no content (like the <br> element). These elements
 
 HTML Page Structure
 
-Below is a visualization of an HTML page structure:
+Below is a visualisation of an HTML page structure:
 
 <html>
 	<head>
@@ -56,4 +56,176 @@ Note: The content inside the <body> section will be displayed in a browser. The 
 Tags
 
 In HTML, tags are the building blocks used to define the structure and elements of a web page. They are enclosed in angle brackets ("<>" and "</>") and provide instructions to web browsers on how to display the content.
+
+Heading Tags: <h1> to <h6>- Used to define headings of different levels, with <h1> being the highest level and <h6> being the lowest.
+Syntax: 
+<h1>Heading Text</h1>
+<h6>Smallest heading Text</h6>
+
+Paragraph Tags:<p> - Used to define paragraphs of text.
+<p>Paragraph Text</p>
+
+Anchor Tags: <a>- Used to create hyperlinks to other web pages or resources. It typically includes an href attribute specifying the destination URL.
+Syntax :
+<a href="URL">Link Text</a>
+
+
+Image Tags: <img> -used to insert images into web page. It requires the attribute, which specifics the image file URL, and the alt attribute, which provides alternative text for accessibility.
+Syntax:
+<img src=”URL of Image” alt=”Description of the Image “ width=”Width Dimension” height=”Height Dimension”>
+
+
+List Tags:
+Unordered List <ul> - Used to create a bulleted list.
+Syntax:
+<ul>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ul>
+
+ Ordered List <ol> - Used to create a numbered list.
+Syntax:
+<ol>
+	<li>First item</li>
+	<li>Second Item</li>
+	<li>Third Item</li>
+</ol>
+
+List item <li> - Used to define individual items in a list.
+
+
+Table Tags: 
+Table: <table> - Used to create table structure.
+Table Row: <tr> - Used to define a row in a table.
+Table Header: <th> - Used to define header cells in a table.
+Table Data: <td> -Used to define cells in a table.
+<body>
+   <table border="1">
+       <thead>
+           <th>Country</th>
+           <th>State</th>
+           <th>City</th>
+           <th>Street</th>
+           <th>Male</th>
+           <th>Female</th>
+           <th>Others</th>
+       </thead>
+       <tbody>
+           <tr>
+               <td rowspan="8">1</td>
+               <td rowspan="4">Kerala</td>
+               <td rowspan="2">Cochin</td>
+               <td>New Street</td>
+               <td>500</td>
+               <td>600</td>
+               <td>6</td>
+           </tr>
+           <tr>
+               <td>Main Street</td>
+               <td>300</td>
+               <td>288</td>
+               <td>2</td>
+           </tr>
+           <tr>
+               <td rowspan="2">Trivandrum</td>
+               <td>
+                   Guru Street
+               </td>
+               <td>500</td>
+               <td>600</td>
+               <td>10</td>
+
+
+           </tr>
+           <tr>
+               <td>TVK Street</td>
+               <td>
+                   500
+               </td>
+               <td>
+                   600
+               </td>
+               <td>2</td>
+           </tr>
+           <tr>
+               <td rowspan="4">Mahrastra</td>
+               <td rowspan="2">
+                   Mumbai
+               </td>
+               <td>
+                   Krishna Street
+               </td>
+               <td>700</td>
+               <td>850</td>
+               <td>
+                   1
+               </td>
+           </tr>
+           <tr>
+               <td>Main Street</td>
+               <td>500</td>
+               <td>
+                   600
+               </td>
+               <td>2</td>
+
+
+           </tr>
+           <tr>
+               <td rowspan="2">
+                   Surath
+               </td>
+               <td>New Street</td>
+               <td>500</td>
+               <td>600</td>
+               <td>4</td>
+           </tr>
+           <tr>
+               <td>Bill Street</td>
+               <td>500</td>
+               <td>600</td>
+               <td>2</td>
+           </tr>
+           <tr>
+               <td rowspan="2">
+                   2
+               </td>
+               <td rowspan="2">Alaska</td>
+               <td rowspan="2">AKA Central</td>
+               <td>New Street</td>
+               <td>200</td>
+               <td>210</td>
+               <td>2</td>
+
+
+           </tr>
+           <tr>
+               <td>Cross Street</td>
+               <td>1000</td>
+               <td>1050</td>
+               <td>10</td>
+           </tr>
+       </tbody>
+   </table>
+</body>
+</html>
+
+Form Tags:
+Form : <form> -Used to create an interactive form.
+Input: <input> -Used to create input fields within a form, such as text input, checkboxes, radio buttons, etc.
+Button: <button> - Used to create clickable buttons within a form.
+Semantic Tags:
+<header> - Represents the header section of a document or a section within a document,
+<nav> - Represents a navigation section.
+<main> - Represents the main content of a document.
+<section> - Represents a standalone section of content.
+<article> - Represents self-contained composition within a document.
+<footer> - Represents the footer section of a document or a section within a document.
+Formatting Tags:
+<strong> or <b> - Used to emphasize or make text bold.
+<em> or <i> - Used to emphasize or make text italic.
+<u> - Used to underline text.
+<s> - Used to strikethrough text.
+
 
