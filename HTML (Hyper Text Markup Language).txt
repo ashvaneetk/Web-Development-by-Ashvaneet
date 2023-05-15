@@ -1,0 +1,59 @@
+HTML (Hyper Text Markup Language)
+
+It is the standard markup language used for creating and structuring web pages. HTML is the building block of the web and provides the structure and presentation of content on the internet.
+
+HTML uses a set of markup tags to define the structure and layout of a web page. These tags are enclosed in angle brackets ("<>" and "</>") and are interpreted by web browsers to display the content accordingly. HTML tags are used to define headings, paragraphs, lists, images, links, tables, forms, and other elements on a web page.
+
+Here's a simple example of HTML code that creates a basic web page structure:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Web Page</title>
+</head>
+<body>
+  <h1>Welcome to My Web Page!</h1>
+  <p>This is a paragraph of text.</p>
+  <img src="image.jpg" alt="My Image">
+  <a href="https://www.example.com">Click here</a> to visit Example.com.
+</body>
+</html>
+
+
+The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+The <html> element is the root element of an HTML page
+The <head> element contains meta information about the HTML page
+The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+The <h1> element defines a large heading
+The <p> element defines a paragraph
+
+Element:
+
+The HTML element is everything from the start tag to the end tag:
+
+<h1>My First Heading</h1>
+
+Note: Some HTML elements have no content (like the <br> element). These elements are called empty elements. Empty elements do not have an end tag!
+
+HTML Page Structure
+
+Below is a visualization of an HTML page structure:
+
+<html>
+	<head>
+		<title>Page title</title>
+	</head>
+	<body>
+		<h1>This is a heading</h1>
+		<p>This is a paragraph.</p>
+		<p>This is another paragraph.</p>
+	</body>
+</html>
+
+Note: The content inside the <body> section will be displayed in a browser. The content inside the <title> element will be shown in the browser's title bar or in the page's tab.
+
+Tags
+
+In HTML, tags are the building blocks used to define the structure and elements of a web page. They are enclosed in angle brackets ("<>" and "</>") and provide instructions to web browsers on how to display the content.
+
