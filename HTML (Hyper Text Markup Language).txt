@@ -213,60 +213,6 @@ Table Data: <td> -Used to define cells in a table.
 
 Form Tags:
 Form : <form> -Used to create an interactive form.
-To create a search bar in HTML, you can use the <form> and <input> tags. Here's an example of how to create a basic search bar:
-
-
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Search Bar Example</title>
-</head>
-<body>
-  <form action="/search" method="GET">
-    <input type="text" name="q" placeholder="Search...">
-    <input type="submit" value="Search">
-  </form>
-</body>
-</html>
-
-
-To create a search bar in HTML, you can use the <form> and <input> tags. Here's an example of how to create a basic search bar:
-
-html
-Copy code
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Search Bar Example</title>
-</head>
-<body>
-  <form action="/search" method="GET">
-    <input type="text" name="q" placeholder="Search...">
-    <input type="submit" value="Search">
-  </form>
-</body>
-</html>
-In the above example:
-
->The <form> tag is used to create a form that contains the search bar.
->The action attribute specifies the URL where the form data should be submitted. 
- In this example, it is set to /search.
->The method attribute specifies the HTTP method to be used for submitting the form. 
- In this case, it is set to GET.
->Inside the form, an <input> tag with type="text" is used to create the search input field.
- The name attribute is set to "q" (you can choose any name you like), which will be used to identify the input field when the form is submitted.
->The placeholder attribute provides a placeholder text that is displayed in the input field before the user enters any text.
- Another <input> tag with type="submit" is used to create the search button. The value attribute specifies the text that will be displayed on the button.
-
-
-
-
-
-
-
-
-
-
 Input: <input> -Used to create input fields within a form, such as text input, checkboxes, radio buttons, etc.
 Button: <button> - Used to create clickable buttons within a form.
 Semantic Tags:
